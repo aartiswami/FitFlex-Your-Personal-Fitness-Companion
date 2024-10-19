@@ -1,0 +1,45 @@
+.Footer{
+
+    background-color: rgb(42, 42, 42);
+}
+
+.footer-body{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+    padding-top: 5vh;
+
+}
+
+.footer-body ul{
+
+
+}
+
+.footer-body ul li{
+    list-style: none;
+    color: rgb(220, 220, 220);
+    cursor: pointer;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.footer-body ul li:hover{
+    color: tomato;
+    
+}
+
+.Footer hr{
+
+    width: 95%;
+}
+
+.Footer p{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 3vh;
+    padding-top: 2vh;
+    font-size: 1.2rem;
+    color: rgb(182, 182, 182);
+}

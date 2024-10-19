@@ -1,0 +1,69 @@
+.category-exercises-page{
+    min-height: 80vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.category-exercises-page h1{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    margin-left: 3vw;
+}
+
+.category-exercises-page h1 span{
+    font-weight: 600;
+}
+
+.exercises{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: space-evenly;
+    row-gap: 3vh;
+}
+
+.exercise{
+    border: 1px solid #e0e0e0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2vh 2vh 4vh 2vh;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    background-color: #020e13de;
+}
+
+.exercise:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.exercise img{
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.6rem;
+}
+
+.exercise h3{
+    margin: 0;
+    font-weight: 400;
+    width: 96%;
+    margin-left: 2%;
+    color: rgb(229, 232, 235);
+}
+
+.exercise ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.exercise ul li{
+    list-style: none;
+    border: 1px solid rgb(254, 191, 96);
+    color: rgb(254, 191, 96);
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    border-radius: 2rem;
+}

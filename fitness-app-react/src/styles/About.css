@@ -1,0 +1,64 @@
+.about-container{
+
+    height: 90vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+}
+
+
+
+.about-image{
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.about-image img{
+
+    height: 70vh;
+    width: 28vw;
+    box-shadow: 10px 10px tomato;
+    border-radius: 0.3rem;
+}
+
+.about-text{
+
+    width: 90%;
+}
+
+.about-text span{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.about-text span .about-line{
+
+    height: 2px;
+    width: 50px;
+    background-color: tomato;
+    margin: 0;
+}
+
+.about-text span h5{
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: tomato;
+    
+}
+
+.about-text h3{
+    font-size: 2.5rem;
+    margin: 0;
+    color: rgb(42, 42, 42);
+}
+
+.about-text p{
+    font-size: 1.2rem;
+    color: rgb(62, 62, 62);
+}
